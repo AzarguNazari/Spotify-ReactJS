@@ -514,7 +514,7 @@ export default class Content extends Component {
                         <div className="album__info">
                           <div className="album__info__art">
                             <img
-                              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/7022/whenDarkOut.jpg"
+                              src="https://aryanasayeed.com/wp-content/uploads/2017/04/product_005.jpg"
                               alt="When It's Dark Out"
                             />
                           </div>
@@ -522,9 +522,7 @@ export default class Content extends Component {
                           <div className="album__info__meta">
                             <div className="album__year">2015</div>
 
-                            <div className="album__name">
-                              When It's Dark Out
-                            </div>
+                            <div className="album__name">افغان بچه گک</div>
 
                             <div className="album__actions">
                               <button className="button-light save">
@@ -543,7 +541,9 @@ export default class Content extends Component {
                             <div className="tracks__heading">
                               <div className="tracks__heading__number">#</div>
 
-                              <div className="tracks__heading__title">Song</div>
+                              <div className="tracks__heading__title">
+                                آّهنگ ها
+                              </div>
 
                               <div className="tracks__heading__length">
                                 <i className="ion-ios-stopwatch-outline"></i>
@@ -561,7 +561,7 @@ export default class Content extends Component {
                                 <i className="ion-checkmark-round added"></i>
                               </div>
 
-                              <div className="track__title">Intro</div>
+                              <div className="track__title">bache kabul</div>
 
                               <div className="track__explicit">
                                 <span className="label">Explicit</span>
@@ -581,7 +581,7 @@ export default class Content extends Component {
                                 <i className="ion-checkmark-round added"></i>
                               </div>
 
-                              <div className="track__title">Random</div>
+                              <div className="track__title">saat-e brand</div>
 
                               <div className="track__explicit">
                                 <span className="label">Explicit</span>
@@ -602,8 +602,8 @@ export default class Content extends Component {
                               </div>
 
                               <div className="track__title featured">
-                                <span className="title">Me, Myself & I</span>
-                                <span className="feature">Bebe Rexha</span>
+                                <span className="title">afghan</span>
+                                <span className="feature">حبیب قادری</span>
                               </div>
 
                               <div className="track__explicit">
@@ -611,329 +611,6 @@ export default class Content extends Component {
                               </div>
 
                               <div className="track__length">4:11</div>
-
-                              <div className="track__popularity">
-                                <i className="ion-arrow-graph-up-right"></i>
-                              </div>
-                            </div>
-
-                            <div className="track">
-                              <div className="track__number">4</div>
-
-                              <div className="track__added">
-                                <i className="ion-checkmark-round added"></i>
-                              </div>
-
-                              <div className="track__title featured">
-                                <span className="title">One Of Them</span>
-                                <span className="feature">Big Sean</span>
-                              </div>
-
-                              <div className="track__explicit">
-                                <span className="label">Explicit</span>
-                              </div>
-
-                              <div className="track__length">3:20</div>
-
-                              <div className="track__popularity">
-                                <i className="ion-arrow-graph-down-right"></i>
-                              </div>
-                            </div>
-
-                            <div className="track">
-                              <div className="track__number">5</div>
-
-                              <div className="track__added">
-                                <i className="ion-checkmark-round added"></i>
-                              </div>
-
-                              <div className="track__title featured">
-                                <span className="title">Drifting</span>
-                                <span className="feature">Chris Brown</span>
-                                <span className="feature">Tory Lanez</span>
-                              </div>
-
-                              <div className="track__explicit">
-                                <span className="label">Explicit</span>
-                              </div>
-
-                              <div className="track__length">4:33</div>
-
-                              <div className="track__popularity">
-                                <i className="ion-arrow-graph-up-right"></i>
-                              </div>
-                            </div>
-
-                            <div className="track">
-                              <div className="track__number">6</div>
-
-                              <div className="track__added">
-                                <i className="ion-checkmark-round added"></i>
-                              </div>
-
-                              <div className="track__title featured">
-                                <span className="title">Of All Things</span>
-                                <span className="feature">Too $hort</span>
-                              </div>
-
-                              <div className="track__explicit">
-                                <span className="label">Explicit</span>
-                              </div>
-
-                              <div className="track__length">3:34</div>
-
-                              <div className="track__popularity">
-                                <i className="ion-arrow-graph-up-right"></i>
-                              </div>
-                            </div>
-
-                            <div className="track">
-                              <div className="track__number">7</div>
-
-                              <div className="track__added">
-                                <i className="ion-checkmark-round added"></i>
-                              </div>
-
-                              <div className="track__title featured">
-                                <span className="title">Order More</span>
-                                <span className="feature">Starrah</span>
-                              </div>
-
-                              <div className="track__explicit">
-                                <span className="label">Explicit</span>
-                              </div>
-
-                              <div className="track__length">3:29</div>
-
-                              <div className="track__popularity">
-                                <i className="ion-arrow-graph-up-right"></i>
-                              </div>
-                            </div>
-
-                            <div className="track">
-                              <div className="track__number">8</div>
-
-                              <div className="track__added">
-                                <i className="ion-checkmark-round added"></i>
-                              </div>
-
-                              <div className="track__title">
-                                <span>Calm Down</span>
-                              </div>
-
-                              <div className="track__explicit">
-                                <span className="label">Explicit</span>
-                              </div>
-
-                              <div className="track__length">2:07</div>
-
-                              <div className="track__popularity">
-                                <i className="ion-arrow-graph-up-right"></i>
-                              </div>
-                            </div>
-
-                            <div className="track">
-                              <div className="track__number">9</div>
-
-                              <div className="track__added">
-                                <i className="ion-plus not-added"></i>
-                              </div>
-
-                              <div className="track__title featured">
-                                <span className="title">Don't Let Me Go</span>
-                                <span className="feature">Grace</span>
-                              </div>
-
-                              <div className="track__explicit">
-                                <span className="label">Explicit</span>
-                              </div>
-
-                              <div className="track__length">3:11</div>
-
-                              <div className="track__popularity">
-                                <i className="ion-arrow-graph-down-right"></i>
-                              </div>
-                            </div>
-
-                            <div className="track">
-                              <div className="track__number">10</div>
-
-                              <div className="track__added">
-                                <i className="ion-checkmark-round added"></i>
-                              </div>
-
-                              <div className="track__title">
-                                <span>You Got Me</span>
-                              </div>
-
-                              <div className="track__explicit">
-                                <span className="label">Explicit</span>
-                              </div>
-
-                              <div className="track__length">3:28</div>
-
-                              <div className="track__popularity">
-                                <i className="ion-arrow-graph-up-right"></i>
-                              </div>
-                            </div>
-
-                            <div className="track">
-                              <div className="track__number">11</div>
-
-                              <div className="track__added">
-                                <i className="ion-checkmark-round added"></i>
-                              </div>
-
-                              <div className="track__title featured">
-                                <span className="title">What If</span>
-                                <span className="feature">Gizzle</span>
-                              </div>
-
-                              <div className="track__explicit">
-                                <span className="label">Explicit</span>
-                              </div>
-
-                              <div className="track__length">4:13</div>
-
-                              <div className="track__popularity">
-                                <i className="ion-arrow-graph-up-right"></i>
-                              </div>
-                            </div>
-
-                            <div className="track">
-                              <div className="track__number">12</div>
-
-                              <div className="track__added">
-                                <i className="ion-checkmark-round added"></i>
-                              </div>
-
-                              <div className="track__title">
-                                <span>Sad Boy</span>
-                              </div>
-
-                              <div className="track__explicit">
-                                <span className="label">Explicit</span>
-                              </div>
-
-                              <div className="track__length">3:23</div>
-
-                              <div className="track__popularity">
-                                <i className="ion-arrow-graph-up-right"></i>
-                              </div>
-                            </div>
-
-                            <div className="track">
-                              <div className="track__number">13</div>
-
-                              <div className="track__added">
-                                <i className="ion-checkmark-round added"></i>
-                              </div>
-
-                              <div className="track__title featured">
-                                <span className="title">Some Kind Of Drug</span>
-                                <span className="feature">Marc E. Bassy</span>
-                              </div>
-
-                              <div className="track__explicit">
-                                <span className="label">Explicit</span>
-                              </div>
-
-                              <div className="track__length">3:42</div>
-
-                              <div className="track__popularity">
-                                <i className="ion-arrow-graph-up-right"></i>
-                              </div>
-                            </div>
-
-                            <div className="track">
-                              <div className="track__number">14</div>
-
-                              <div className="track__added">
-                                <i className="ion-checkmark-round added"></i>
-                              </div>
-
-                              <div className="track__title featured">
-                                <span className="title">Think About You</span>
-                                <span className="feature">Quin</span>
-                              </div>
-
-                              <div className="track__explicit">
-                                <span className="label">Explicit</span>
-                              </div>
-
-                              <div className="track__length">2:59</div>
-
-                              <div className="track__popularity">
-                                <i className="ion-arrow-graph-up-right"></i>
-                              </div>
-                            </div>
-
-                            <div className="track">
-                              <div className="track__number">15</div>
-
-                              <div className="track__added">
-                                <i className="ion-checkmark-round added"></i>
-                              </div>
-
-                              <div className="track__title featured">
-                                <span className="title">
-                                  Everything Will Be OK
-                                </span>
-                                <span className="feature">Kehlani</span>
-                              </div>
-
-                              <div className="track__explicit">
-                                <span className="label">Explicit</span>
-                              </div>
-
-                              <div className="track__length">5:11</div>
-
-                              <div className="track__popularity">
-                                <i className="ion-arrow-graph-up-right"></i>
-                              </div>
-                            </div>
-
-                            <div className="track">
-                              <div className="track__number">16</div>
-
-                              <div className="track__added">
-                                <i className="ion-checkmark-round added"></i>
-                              </div>
-
-                              <div className="track__title featured">
-                                <span className="title">For This</span>
-                                <span className="feature">Iamnobodi</span>
-                              </div>
-
-                              <div className="track__explicit">
-                                <span className="label">Explicit</span>
-                              </div>
-
-                              <div className="track__length">4:11</div>
-
-                              <div className="track__popularity">
-                                <i className="ion-arrow-graph-up-right"></i>
-                              </div>
-                            </div>
-
-                            <div className="track">
-                              <div className="track__number">17</div>
-
-                              <div className="track__added">
-                                <i className="ion-checkmark-round added"></i>
-                              </div>
-
-                              <div className="track__title featured">
-                                <span className="title">Nothing to Me</span>
-                                <span className="feature">Keyshia Cole</span>
-                                <span className="feature">E-40</span>
-                              </div>
-
-                              <div className="track__explicit">
-                                <span className="label">Explicit</span>
-                              </div>
-
-                              <div className="track__length">5:30</div>
 
                               <div className="track__popularity">
                                 <i className="ion-arrow-graph-up-right"></i>
@@ -1066,31 +743,31 @@ export default class Content extends Component {
           <div className="social">
             <div className="friends">
               <a href="#" className="friend">
-                <i className="ion-android-person"></i> Sam Smith
+                <i className="ion-android-person"></i> Sayeed Karim
               </a>
 
               <a href="#" className="friend">
-                <i className="ion-android-person"></i> Tarah Forsyth
+                <i className="ion-android-person"></i> Ahmad Rishad
               </a>
 
               <a href="#" className="friend">
-                <i className="ion-android-person"></i> Ricahrd Tomkins
+                <i className="ion-android-person"></i> Murtaza Sakha
               </a>
 
               <a href="#" className="friend">
-                <i className="ion-android-person"></i> Tony Russo
+                <i className="ion-android-person"></i> Karim Ahmad
               </a>
 
               <a href="#" className="friend">
-                <i className="ion-android-person"></i> Alyssa Marist
+                <i className="ion-android-person"></i> Rasouly Ahmad
               </a>
 
               <a href="#" className="friend">
-                <i className="ion-android-person"></i> Ron Samson
+                <i className="ion-android-person"></i> Jamshid Nazari
               </a>
             </div>
 
-            <button className="button-light">Find Friends</button>
+            <button className="button-light">جستجو دوست</button>
           </div>
         </div>
       </section>
