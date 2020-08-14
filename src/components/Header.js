@@ -23,7 +23,7 @@ export default class Header extends Component {
         </div>
 
         <div className="search">
-          <input type="text" placeholder="Search" />
+          <input type="text" placeholder="جستجو" />
         </div>
 
         <div className="user">
@@ -38,16 +38,16 @@ export default class Header extends Component {
           <div className="user__info">
             <span className="user__info__img">
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/7022/adam_proPic.jpg"
+                src="https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/p960x960/107877050_1228267104183293_8367084877643788209_o.jpg?_nc_cat=104&_nc_sid=85a577&_nc_ohc=jQ6YGCrvMvMAX-fLiR7&_nc_ht=scontent-frt3-1.xx&_nc_tp=6&oh=f146147c467e9df414b265c22322f52c&oe=5F5A5FA0"
                 alt="Profile Picture"
                 className="img-responsive"
               />
             </span>
 
             <span className="user__info__name">
-              <span className="first">Adam</span>
+              <span className="first">Azargul </span>
 
-              <span className="last">Lowenthal</span>
+              <span className="last">Nazari</span>
             </span>
           </div>
 
