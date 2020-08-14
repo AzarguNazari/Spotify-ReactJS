@@ -1,4 +1,4 @@
-# spotify-react
+# Spotify Mockup in React
 
 To run the application
 `npm install && npm start`
