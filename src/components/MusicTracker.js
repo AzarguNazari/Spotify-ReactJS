@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class CurrentTracker extends Component {
+export default class MusicTracker extends Component {
   constructor(props) {
     super(props);
     this.state = {};

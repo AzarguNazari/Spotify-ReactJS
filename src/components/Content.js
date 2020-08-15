@@ -1,9 +1,31 @@
 import React, { Component } from "react";
+import LeftSideOption from "./LeftSideOption";
 
 export default class Content extends Component {
+
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+        leftMenuOptions: [{
+           link: "#",
+           name: "صحفه اصلی",
+           id: "main",
+           subcategories: [
+             {name: "جستجو",
+               icon: "ion-ios-browsers",
+               link: "#"
+             },
+             {name: "فعالعیت",
+               icon: "ion-person-stalker",
+               link: "#"
+             },
+             {name: "رادیو",
+               icon: "ion-radio-waves",
+               link: "#"
+             }
+           ]
+        }]
+    }
   }
 
   render() {
@@ -11,35 +33,13 @@ export default class Content extends Component {
       <section className="content">
         <div className="content__left">
           <section className="navigation">
-            <div className="navigation__list">
-              <div
-                className="navigation__list__header"
-                role="button"
-                data-toggle="collapse"
-                href="#main"
-                aria-expanded="true"
-                aria-controls="main"
-              >
-                صحفه اصلی
-              </div>
 
-              <div className="collapse in" id="main">
-                <a href="#" className="navigation__list__item">
-                  <i className="ion-ios-browsers"></i>
-                  <span>جستجو</span>
-                </a>
+            {
+              this.state.leftMenuOptions.forEach(menu => {
+                 return <LeftSideOption options={menu.subcategories} link={menu.link} name={menu.name} id={menu.id}/>
+              })
+            }
 
-                <a href="#" className="navigation__list__item">
-                  <i className="ion-person-stalker"></i>
-                  <span>فعالعیت</span>
-                </a>
-
-                <a href="#" className="navigation__list__item">
-                  <i className="ion-radio-waves"></i>
-                  <span>رادیو</span>
-                </a>
-              </div>
-            </div>
 
             <div className="navigation__list">
               <div
