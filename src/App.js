@@ -2,14 +2,14 @@ import React from "react";
 import "./style.scss";
 import Header from "./components/Header";
 import Content from "./components/Content";
-import CurrentTracker from "./components/CurrentTracker";
+import MusicTracker from "./components/MusicTracker";
 
 export default function App() {
   return (
-    <div classNameName="App">
+    <div className="App">
       <Header />
       <Content />
-      <CurrentTracker />
+      <MusicTracker />
     </div>
   );
 }
