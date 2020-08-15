@@ -24,7 +24,53 @@ export default class Content extends Component {
                link: "#"
              }
            ]
-        }]
+        },
+          {
+            link: "#",
+            name: "آهنگ شما",
+            id: "yourMusic",
+            subcategories: [
+              {name: "آهنگ ها",
+                icon: "ion-headphone",
+                link: "#"
+              },
+              {name: "البوم",
+                icon: "ion-ios-musical-notes",
+                link: "#"
+              },
+              {name: "هنرمند ها",
+                icon: "ion-person",
+                link: "#"
+              },
+              {name: "ذخیر فایل",
+                icon: "ion-document",
+                link: "#"
+              }
+            ]
+          },
+          {
+            link: "#",
+            name: "لیست آهنگ ها",
+            id: "playlists",
+            subcategories: [
+              {name: "آهنگ شاد",
+                icon: "ion-ios-musical-notes",
+                link: "#"
+              },
+              {name: "اتن افغانی",
+                icon: "ion-ios-musical-notes",
+                link: "#"
+              },
+              {name: "آهنگ آرامی بخش",
+                icon: "ion-ios-musical-notes",
+                link: "#"
+              },
+              {name: "آهنگ های فرهاد دریا",
+                icon: "ion-ios-musical-notes",
+                link: "#"
+              }
+            ]
+          }]
     }
   }
 
@@ -33,123 +79,7 @@ export default class Content extends Component {
       <section className="content">
         <div className="content__left">
           <section className="navigation">
-
-            {
-              this.state.leftMenuOptions.forEach(menu => {
-                 return <LeftSideOption options={menu.subcategories} link={menu.link} name={menu.name} id={menu.id}/>
-              })
-            }
-
-
-            <div className="navigation__list">
-              <div
-                className="navigation__list__header"
-                role="button"
-                data-toggle="collapse"
-                href="#yourMusic"
-                aria-expanded="true"
-                aria-controls="yourMusic"
-              >
-                آهنگ شما
-              </div>
-
-              <div className="collapse in" id="yourMusic">
-                <a href="#" className="navigation__list__item">
-                  <i className="ion-headphone"></i>
-                  <span>آهنگ ها</span>
-                </a>
-
-                <a href="#" className="navigation__list__item">
-                  <i className="ion-ios-musical-notes"></i>
-                  <span>البوم</span>
-                </a>
-
-                <a href="#" className="navigation__list__item">
-                  <i className="ion-person"></i>
-                  <span>هنرمند ها</span>
-                </a>
-
-                <a href="#" className="navigation__list__item">
-                  <i className="ion-document"></i>
-                  <span>ذخیر فایل</span>
-                </a>
-              </div>
-            </div>
-
-            <div className="navigation__list">
-              <div
-                className="navigation__list__header"
-                role="button"
-                data-toggle="collapse"
-                href="#playlists"
-                aria-expanded="true"
-                aria-controls="playlists"
-              >
-                لیست آهنگ ها
-              </div>
-
-              <div className="collapse in" id="playlists">
-                <a href="#" className="navigation__list__item">
-                  <i className="ion-ios-musical-notes"></i>
-                  <span>آهنگ شاد</span>
-                </a>
-
-                <a href="#" className="navigation__list__item">
-                  <i className="ion-ios-musical-notes"></i>
-                  <span>اتن افغانی</span>
-                </a>
-
-                <a href="#" className="navigation__list__item">
-                  <i className="ion-ios-musical-notes"></i>
-                  <span>آهنگ آرامی بخش</span>
-                </a>
-
-                <a href="#" className="navigation__list__item">
-                  <i className="ion-ios-musical-notes"></i>
-                  <span>آهنگ های فرهاد دریا</span>
-                </a>
-
-                <a href="#" className="navigation__list__item">
-                  <i className="ion-ios-musical-notes"></i>
-                  <span>آهنگ های سابق</span>
-                </a>
-
-                <a href="#" className="navigation__list__item">
-                  <i className="ion-ios-musical-notes"></i>
-                  <span>آهنگ میر مفتون</span>
-                </a>
-
-                <a href="#" className="navigation__list__item">
-                  <i className="ion-ios-musical-notes"></i>
-                  <span>آهنگ های قطغنی</span>
-                </a>
-
-                <a href="#" className="navigation__list__item">
-                  <i className="ion-ios-musical-notes"></i>
-                  <span>آهنگ های میهنی</span>
-                </a>
-
-                <a href="#" className="navigation__list__item">
-                  <i className="ion-ios-musical-notes"></i>
-                  <span>آهنگ ها پاپ</span>
-                </a>
-
-                <a href="#" className="navigation__list__item">
-                  <i className="ion-ios-musical-notes"></i>
-                  <span>بهترین آهنگ ها</span>
-                </a>
-
-                <a href="#" className="navigation__list__item">
-                  <i className="ion-ios-musical-notes"></i>
-                  <span>آهنگ های رقص</span>
-                </a>
-
-                <a href="#" className="navigation__list__item">
-                  <i className="ion-ios-musical-notes"></i>
-                  <span>آهنگ ها دلنشین</span>
-                </a>
-              </div>
-            </div>
+            <LeftSideOption leftSideContent={this.state.leftMenuOptions} />
           </section>
 
           <section className="playlist">

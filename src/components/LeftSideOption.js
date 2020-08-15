@@ -1,4 +1,5 @@
 import React, {Component} from "react"
+import Link from "./Link";
 
 export default class LeftSideOption extends Component {
 
@@ -11,28 +12,31 @@ export default class LeftSideOption extends Component {
 
     render() {
         return (
-            <div className="navigation__list">
-                <div
-                    className="navigation__list__header"
-                    role="button"
-                    data-toggle="collapse"
-                    href={this.props.link}
-                    aria-expanded="true"
-                    aria-controls="main"
-                >
-                    {this.props.name}
-                </div>
+            <div>
+                {
+                    this.props.leftSideContent.map(menu => {
+                        return <div className="navigation__list">
+                                    <div
+                                        className="navigation__list__header"
+                                        role="button"
+                                        data-toggle="collapse"
+                                        href={menu.link}
+                                        aria-expanded="true"
+                                        aria-controls="main"
+                                    >
+                                        {menu.name}
+                                    </div>
 
-                <div className="collapse in" id={this.props.id}>
-                    {
-                        this.props.options.forEach(category => {
-                            return <a href={category.link} className="navigation__list__item">
-                                    <i className={category.icon}></i>
-                                    <span>{category.name}</span>
-                                   </a>
-                        })
-                    }
-                </div>
+                                    <div className="collapse in" id={menu.id}>
+                                        {
+                                            menu.subcategories.map(link => {
+                                                return <Link name={link.name} link={link.link} icon={link.icon}/>
+                                            })
+                                        }
+                                    </div>
+                                </div>
+                    })
+                }
             </div>
         )
     }
