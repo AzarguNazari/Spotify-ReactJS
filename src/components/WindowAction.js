@@ -1,6 +1,6 @@
 import React from "react";
 
-export default (props) => {
+export default () => {
   return (
     <div className="window__actions">
       <i className="ion-record red"></i>

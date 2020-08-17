@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import LeftSideOption from "./LeftSideOption";
-import ArtistPage from "./ArtistPage";
+import ArtistFeature from "./ArtistFeature";
 import FriendSearch from "./FriendSearch";
 
 export default class Content extends Component {
@@ -67,12 +67,21 @@ export default class Content extends Component {
                 icon: "ion-ios-musical-notes",
                 link: "#"
               },
-              {name: "آهنگ های فرهاد دریا",
+              {name: "آهنگ های قدیمی",
+                icon: "ion-ios-musical-notes",
+                link: "#"
+              },
+              {name: "آهنگ های جدید",
                 icon: "ion-ios-musical-notes",
                 link: "#"
               }
             ]
-          }]
+          }],
+      artistInfo: {
+          name: "Aryana Sayeed",
+          picture: "./images/ariana_profile.jpg",
+          background: "./images/ariana_profile_background.jpg"
+      }
     }
   }
 
@@ -93,7 +102,7 @@ export default class Content extends Component {
           <section className="playing">
             <div className="playing__art">
               <img
-                src="https://tutitv.wm3wrbk2-liquidwebsites.com/wp-content/uploads/2015/12/news-oo-ghaitaa.jpg"
+                src="./images/farha_darya.jpg"
                 alt="Album Art"
               />
             </div>
@@ -110,7 +119,7 @@ export default class Content extends Component {
           </section>
         </div>
 
-        <ArtistPage />
+        <ArtistFeature artistInfo={this.state.artistInfo}/>
 
         <FriendSearch />
       </section>
