@@ -1,7 +1,7 @@
 {
   "name": "react",
   "version": "1.0.0",
-  "description": "React example starter project",
+  "description": "Spotify Mockup",
   "keywords": [
     "react",
     "starter"
@@ -12,7 +12,8 @@
     "react": "16.12.0",
     "react-bootstrap": "1.3.0",
     "react-dom": "16.12.0",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "typescript": "3.8.3"

@@ -97,7 +97,9 @@ body {
                 cursor: pointer;
             }
         }
-        &__notifications {}
+        &__notifications {
+            margin-right: 20px
+        }
         &__inbox {}
         &__info {
             img {
