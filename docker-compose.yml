@@ -1,0 +1,10 @@
+version: "3.5"
+
+services:
+  spotify:
+    image: "spotify-ui"
+    build:
+      context: ./
+    container_name: "spotify-ui"
+    ports:
+      - 3000:3000
